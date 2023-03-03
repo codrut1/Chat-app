@@ -1,0 +1,48 @@
+.root {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.rootMe {
+    justify-content: end;
+}
+
+.rootOther {
+    justify-content: flex-start;
+}
+
+.messageContainer {
+    max-width: 300px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-wrap: break-word;
+}
+
+.messageContainerMe {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.messageContainerOther {
+    background-color: white;
+    color: black;
+}
+
+.messageHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.name {
+    margin-right: 8px;
+}
